@@ -50,8 +50,26 @@
   width: 100%;
 }
 
-.header-nav .nav-link, .navbar-brand{
-  color: var(--text-blue) !important;
+.header-nav .nav-link, .navbar-brand {
+  color: rgb(0, 187, 255) !important;
+  margin: 10px;
+  padding: 5px 40px !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.header-nav .nav-link:hover {
+  background-color: rgba(0, 187, 255, 0.1);
+}
+
+.navbar-brand:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.5rem;
 }
 
 .header-nav .navbar-collapse{
