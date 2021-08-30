@@ -11,9 +11,6 @@ const Homepage: React.FC<homepageProps> = () => {
     
     return (
         <div className="homepage">
-            <Container>
-                
-            </Container>
             <Background />
         </div>
     )
