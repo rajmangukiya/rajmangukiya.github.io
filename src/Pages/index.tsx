@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch} from 'react-router-dom'
 import AboutUs from './AboutUs'
-import Homepage from './Homepage'
+import Homepage from './home/Homepage'
 
 const Index: React.FC = () => {
     return (

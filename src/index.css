@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   overflow-x: hidden;
+  cursor: none;
 }
 
 code {
@@ -22,7 +23,7 @@ code {
   width: 10px;
 }
   ::-webkit-scrollbar-track {
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(3, 24, 32);
 }
   ::-webkit-scrollbar-thumb {
   background: rgb(0, 187, 255);

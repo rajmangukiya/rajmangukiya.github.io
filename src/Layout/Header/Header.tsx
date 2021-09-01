@@ -7,15 +7,15 @@ function Header() {
         <>
             <Navbar collapseOnSelect expand="lg" className="header-nav">
                 <Container>
-                    <Navbar.Brand href="/">Protfolio</Navbar.Brand>
+                    <Navbar.Brand href="#main">Protfolio</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse >
                         <Nav>
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link eventKey={2} href="/About_us">
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link eventKey={2} href="#about">
                                 About Us
                             </Nav.Link>
-                            <Nav.Link eventKey={3}>
+                            <Nav.Link href="#contact" eventKey={3}>
                                 Contact Us
                             </Nav.Link>
                         </Nav>
