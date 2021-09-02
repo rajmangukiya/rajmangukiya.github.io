@@ -11,12 +11,12 @@ function Header() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse >
                         <Nav>
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#work">Work</Nav.Link>
                             <Nav.Link eventKey={2} href="#about">
-                                About Us
+                                About
                             </Nav.Link>
                             <Nav.Link href="#contact" eventKey={3}>
-                                Contact Us
+                                Contact
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

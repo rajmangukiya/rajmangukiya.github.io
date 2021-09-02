@@ -1,5 +1,6 @@
 *{
   margin: 0px;
+  transition: 0.2s;
 }
 
 body {
@@ -11,7 +12,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   overflow-x: hidden;
-  cursor: none;
 }
 
 code {

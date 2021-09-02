@@ -1,9 +1,10 @@
 import React from 'react'
+import WaterWaves from '../../Components/WaterWaves'
 
 function Footer() {
     return (
-        <div>
-            <p>Footer</p>
+        <div className="footer">
+            <WaterWaves />
         </div>
     )
 }
