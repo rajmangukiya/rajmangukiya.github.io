@@ -19,7 +19,7 @@ const Home = () => {
           color: 'rgb(3, 24, 32)'
         }} />
       </a>
-      <WaveBackground />
+      {/* <WaveBackground /> */}
     </div>
   )
 }
