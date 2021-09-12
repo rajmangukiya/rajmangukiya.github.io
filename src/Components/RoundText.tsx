@@ -3,6 +3,23 @@ import PropTypes from 'prop-types';
 
 const RoundText: React.FC<any> = ({ text, arc, radius, classNm }) => {
   const characters = text.split('');
+  let font = 30;
+  
+  if(window.innerWidth <= 400) {
+    arc = 300;
+    radius = 50;
+    font = 12;
+  }
+  else if(window.innerWidth <= 600) {
+    arc = 300;
+    radius = 70;
+    font = 15;
+  }
+  else if(window.innerWidth <= 768) {
+    arc = 300;
+    radius = 100;
+    font = 20;
+  }
   const degree = arc / characters.length;
 
   return (
@@ -15,7 +32,7 @@ const RoundText: React.FC<any> = ({ text, arc, radius, classNm }) => {
             height: `${radius}px`,
             position: 'absolute',
             color: 'rgb(0, 187, 255)',
-            fontSize: '30px',
+            fontSize: `${font}px`,
             transform: `rotateZ(${degree * i - arc / 2}deg)`,
             transformOrigin: `0 ${radius}px 0`,
           }}>

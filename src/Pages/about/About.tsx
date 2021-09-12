@@ -23,38 +23,34 @@ const About = () => {
       </Row>
       <div className="profile-container">
         <Row className="profile-container-row1">
-          <Col md={4} style={{ display: "flex", justifyContent: "center" }}>
-            <div className="about-profile-1">
-              {/* <RoundText
-                text="front-end developer"
-                classNm={`round-text-1`}
-                arc={300}
-                radius={150}
-              /> */}
-            </div>
-          </Col>
+          <div className="about-profile-1">
+            <RoundText
+              text="front-end developer"
+              classNm={`round-text-1`}
+              arc={300}
+              radius={150}
+            />
+          </div>
 
-          <Col md={4} style={{ display: "flex", justifyContent: "center" }}>
-            <div className="about-profile-2">
-              {/* <RoundText
-                text="full-stack developer"
-                classNm={`round-text-2`}
-                arc={300}
-                radius={150}
-              /> */}
-            </div>
-          </Col>
+          <div className="about-profile-2">
+            <RoundText
+              text="full-stack developer"
+              classNm={`round-text-2`}
+              arc={300}
+              radius={150}
+            />
+          </div>
         </Row>
 
         <Row className="profile-container-row2">
           <Col md={4} style={{ display: "flex", justifyContent: "center" }}>
             <div className="about-profile-3">
-              {/* <RoundText
+              <RoundText
                 text="backend developer"
                 classNm={`round-text-3`}
                 arc={300}
                 radius={150}
-              /> */}
+              />
             </div>
           </Col>
         </Row>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Home from './home/Home';
 import WaterWaves from '../Components/WaterWaves';
 import About from './about/About';

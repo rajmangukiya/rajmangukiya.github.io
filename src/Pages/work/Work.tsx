@@ -1,8 +1,8 @@
-import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import WorkBox from "./WorkBox";
 
-const Work: React.FC = () => {
+const Work: React.FC<any> = ({ }) => {
+
   return (
     <div id="work" className="work">
       <Row className="work-row">
