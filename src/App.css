@@ -220,6 +220,7 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  align-items: center;
   top: 0;
   left: 0;
 }
@@ -276,7 +277,7 @@
 
 .home-heading {
   position: absolute;
-  top: 15%;
+  /* top: 15%; */
 }
 
 .home-heading h1 {
