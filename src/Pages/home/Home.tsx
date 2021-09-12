@@ -22,7 +22,7 @@ const Home = () => {
         }} />
       </a>
       {/* <WaveBackground /> */}
-      <ParticlesBg color="#00bbff" num={40} type="cobweb" bg={false} />
+      <ParticlesBg color="#00bbff" num={50} type="cobweb" bg={false} />
     </div>
   )
 }
