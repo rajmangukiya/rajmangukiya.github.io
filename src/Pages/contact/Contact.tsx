@@ -6,6 +6,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import { Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
 
@@ -14,20 +15,20 @@ const Contact = () => {
 
   const handleIcons = () => {
     console.log(height);
-    
-    if(height <= 1200 && height > 992) {
+
+    if (height <= 1200 && height > 992) {
       setSize(80);
     }
-    else if(height <= 992 && height > 768) {
+    else if (height <= 992 && height > 768) {
       setSize(60);
     }
-    else if(height <= 768 && height > 600) {
+    else if (height <= 768 && height > 600) {
       setSize(50);
     }
-    else if(height <= 600 && height > 400) {
+    else if (height <= 600 && height > 400) {
       setSize(40);
     }
-    else if(height <= 400 && height > 0) {
+    else if (height <= 400 && height > 0) {
       setSize(30);
     }
   }
@@ -60,36 +61,43 @@ const Contact = () => {
       </Row>
 
       <p className="contact-info">
-        IT company
+        Surat, Gujarat, India.
         <br />
-        1st floor- Opp Sarvoday Bank,
-        <br />
-        B/h Surat Railway Station,
-        <br />
-        Khandbazar, Varachha Road ,<br />
-        Surat-395006.
+        rajmangukiya00@gmail.com,
+        <br />+91 9023460463,<br />
+        skype -  live:.cid.427e58067e903920.
       </p>
 
       <div className="icons">
         <Row className="contact-row">
           <Col md={2} className="icon-col">
-            <GitHubIcon style={iconStyle} />
+            <a href={'https://github.com/rajmangukiya'} target="_blank" >
+              <GitHubIcon style={iconStyle} />
+            </a>
           </Col>
 
           <Col md={2} className="icon-col">
-            <LinkedInIcon style={iconStyle} />
+            <a href={'https://www.linkedin.com/in/raj-mangukiya-6335431b4/'} target="_blank" >
+              <LinkedInIcon style={iconStyle} />
+            </a>
           </Col>
 
           <Col md={2} className="icon-col">
-            <EmailIcon onClick={toMail} style={iconStyle} />
+            <a href="#contact">
+              <EmailIcon onClick={toMail} style={iconStyle} />
+            </a>
           </Col>
 
           <Col md={2} className="icon-col">
-            <FacebookIcon style={iconStyle} />
+            <a href="https://www.facebook.com/raj.mangukiya.967" target="_blank">
+              <FacebookIcon style={iconStyle} />
+            </a>
           </Col>
 
           <Col md={2} className="icon-col">
-            <InstagramIcon style={iconStyle} />
+            <a href="https://www.instagram.com/raj__mangukiya/" target="_blank">
+              <InstagramIcon style={iconStyle} />
+            </a>
           </Col>
 
           <Col
@@ -100,7 +108,9 @@ const Contact = () => {
               alignItems: "center",
             }}
           >
-            <UpworkIcon />
+            <a href="" target="_blank">
+              <UpworkIcon />
+            </a>
           </Col>
         </Row>
       </div>

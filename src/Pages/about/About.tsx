@@ -14,15 +14,13 @@ const About = () => {
       <Row style={{ margin: 0 }}>
         <Col md={12}>
           <div className="about-container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-            unde nemo illo aut ad voluptates? Veritatis, et eveniet ex explicabo
-            aut nobis sint blanditiis officiis nostrum laudantium maiores quae
-            dolorem?
+            I'm full-stack web developer and freelancer with 2 years of experiance.<br />I also do work on mobile applications.<br />
+            I provides end-to-end web development.
           </div>
         </Col>
       </Row>
       <div className="profile-container">
-        <Row className="profile-container-row1">
+        {/* <Row className="profile-container-row1">
           <div className="about-profile-1">
             <RoundText
               text="front-end developer"
@@ -40,13 +38,13 @@ const About = () => {
               radius={150}
             />
           </div>
-        </Row>
+        </Row> */}
 
         <Row className="profile-container-row2">
           <Col md={4} style={{ display: "flex", justifyContent: "center" }}>
             <div className="about-profile-3">
               <RoundText
-                text="backend developer"
+                text="full-stack developer"
                 classNm={`round-text-3`}
                 arc={300}
                 radius={150}

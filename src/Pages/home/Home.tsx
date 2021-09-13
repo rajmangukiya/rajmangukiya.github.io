@@ -9,16 +9,16 @@ const Home = () => {
     <div className="home">
       <div className="home-heading">
         <h1>
-          <span>We are<br /></span>
-          <span>Software solution<br /></span>
-          <span>to grow<br /></span>
-          <span>your business</span>
+          <span>Hi, I'm Raj.<br /></span>
+          <span>Full-stack web developer<br /></span>
+          {/* <span><br /></span>
+          <span>your business</span> */}
         </h1>
       </div>
       <a className="down-arrow" href="#work">
         <ArrowDownwardIcon style={{
           fontSize: '70px',
-          color: 'rgb(3, 24, 32)'
+          color: 'rgba(255, 255, 255, 0.8)'
         }} />
       </a>
       {/* <WaveBackground /> */}
